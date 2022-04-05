@@ -19,7 +19,7 @@
                         caricato[i] = numero;
                     }
                 }
-                Console.WriteLine("array ordinato:" + " " + caricato[a]);
+                printf("array ordinato:" + " " + caricato[a]);
             }
             return caricato;
  }
