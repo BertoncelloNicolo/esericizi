@@ -1,10 +1,10 @@
 #include<stdio.h>  
 #include <string.h>    
 int main(){    
-  char stringa[20];    
-  printf("Enter string: ");    
-  gets(stringa);
-  printf("la stringa è: %s",stringa);    
-  printf("\n la stringa inversa è: %s",strrev(stringa));    
+  char stringa[15];    
+  printf("inserisci la stringa: ");    
+  gets(stringa);    
+  printf("String is: %s",stringa);    
+  printf("\n stringa minore: %s",strlwr(stringa));    
  return 0;    
-}        
+}    
